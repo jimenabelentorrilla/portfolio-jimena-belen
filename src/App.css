@@ -1,0 +1,43 @@
+
+.row-nav{
+  height: 80px;
+  padding: 25px 50px;
+}
+.logo{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.flex-nav{
+  display: flex;
+  justify-content: end;
+}
+.nav-ul{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.nav-ul a{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+}
+@media (width < 992px){
+  
+  .nav-ul{
+    display: none;
+  }
+
+}
+@media (width > 992px){
+  .menu{
+    display: none;
+  }
+}
