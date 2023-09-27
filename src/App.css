@@ -18,7 +18,7 @@ body {
 .logo{
   color: var(--Black, #2D2D2D);
   font-family: Epilogue;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
