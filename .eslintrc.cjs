@@ -17,4 +17,5 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  ignore: ['.eslintrc.cjs'],
 }

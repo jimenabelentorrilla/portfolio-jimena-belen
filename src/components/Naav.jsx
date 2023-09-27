@@ -6,7 +6,7 @@ import Menu from "../assets/Menu.png";
 const Naav = () => {
   return (
     <>
-        <Container fluid>
+        <Container>
             <Row className="row-nav">
                 <Col>
                     <div>
@@ -19,9 +19,9 @@ const Naav = () => {
                     </div>
                     <div>
                         <ul className='nav-ul'>
-                            <a href="#" target='_blank'><li>Sobre mi</li></a>
-                            <a href="#" target='_blank'><li>Proyectos</li></a>
-                            <a href="#" target='_blank'><li>Contacto</li></a>
+                            <a href="#"><li>Sobre mi</li></a>
+                            <a href="#proyectos"><li>Proyectos</li></a>
+                            <a href="#"><li>Contacto</li></a>
                         </ul>
                     </div>
                     
