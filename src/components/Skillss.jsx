@@ -11,12 +11,12 @@ const Skillss = () => {
           <Row className="row-skills">
               <Col>
                   <div className='flex-skills'>
-                    <FontAwesomeIcon icon={faReact} size="4x" style={{ color: '#2D2D2D'}} />
-                    <FontAwesomeIcon icon={faCss3} size="4x" style={{ color: '#2D2D2D'}}/>
-                    <FontAwesomeIcon icon={faJs} size="4x" style={{ color: '#2D2D2D'}}/> 
-                    <FontAwesomeIcon icon={faBootstrap} size="4x" style={{ color: '#2D2D2D'}}/> 
-                    <FontAwesomeIcon icon={faSass} size="4x" style={{ color: '#2D2D2D'}}/> 
-                    <FontAwesomeIcon icon={faGit} size="4x" style={{ color: '#2D2D2D'}}/> 
+                    <FontAwesomeIcon icon={faReact} size="4x" style={{ color: '#2F2E41'}} />
+                    <FontAwesomeIcon icon={faCss3} size="4x" style={{ color: '#2F2E41'}}/>
+                    <FontAwesomeIcon icon={faJs} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon icon={faBootstrap} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon icon={faSass} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon icon={faGit} size="4x" style={{ color: '#2F2E41'}}/> 
                   </div>
               </Col>
           </Row>
