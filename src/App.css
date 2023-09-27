@@ -1,4 +1,8 @@
-
+#root {
+  background: #fff;
+  margin: 0;
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +12,8 @@ body {
 /***nav**/
 .row-nav{
   height: 80px;
-  padding: 25px 50px;
+  display: flex;
+  align-content: center;
 }
 .logo{
   color: var(--Black, #2D2D2D);
@@ -84,6 +89,97 @@ body {
   justify-content: space-between;
 }
 
+/**Proyectos**/
+.hg-pro{
+  height: 688px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:60px;
+}
+.title-proy{
+  color: var(--Black, #2D2D2D);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px; 
+}
+.row-proy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+} 
+
+/*-Proyecto-**/
+
+.contenedor-card{
+  display: flex;
+  flex-direction: column;
+  gap: 25px; 
+}
+.img-proyecto-size{
+  width: 400px;
+  transition: .3s;
+  opacity: 0.9;
+  backdrop-filter: blur(0px);
+}
+.img-proyecto-size:hover{
+  opacity: 1;
+    cursor: pointer;
+    backdrop-filter: none;
+    transform: scale(1.05);
+}
+.contenedor-info-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contenedor-titulo-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.contenedor-titulo-skills h3{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+ 
+ 
+}
+.contenedor-titulo-skills p{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.btn-links{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-sitio{
+  border: #2D2D2D solid 1px;
+  padding: 6px 12px;
+  border-radius: 18px;
+}
+.btn-sitio a{
+  color: #2D2D2D;
+  text-decoration: none;
+}
 
 
 @media (width < 992px){
