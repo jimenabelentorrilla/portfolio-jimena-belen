@@ -10,7 +10,7 @@ const Naav = () => {
             <Row className="row-nav">
                 <Col>
                     <div>
-                        <span className="logo">JBT</span>
+                        <span className="logo">JBT.</span>
                     </div>
                 </Col>
                 <Col className="flex-nav">
@@ -19,9 +19,9 @@ const Naav = () => {
                     </div>
                     <div>
                         <ul className='nav-ul'>
-                            <a href="#"><li>Sobre mi</li></a>
                             <a href="#proyectos"><li>Proyectos</li></a>
-                            <a href="#"><li>Contacto</li></a>
+                            <a href="#about"><li>Sobre mi</li></a>
+                            <a href="#contacto"><li>Contacto</li></a>
                         </ul>
                     </div>
                     

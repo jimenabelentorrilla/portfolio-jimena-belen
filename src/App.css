@@ -18,7 +18,7 @@ body {
 .logo{
   color: var(--Black, #2D2D2D);
   font-family: Epilogue;
-  font-size: 25px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -55,6 +55,7 @@ body {
   font-style: normal;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 40px;
 }
 .text-hd span{
@@ -75,6 +76,25 @@ body {
 .img-hd{
   width: 100%;
   height: auto;
+}
+/*btn descargar*/
+.btn-des {
+    padding: 12px 22px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase; 
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+ }
+ .btn-des:hover {
+  background-position: right center;
+  cursor: pointer; 
 }
 
 /***skills***/
@@ -180,6 +200,46 @@ body {
   color: #2D2D2D;
   text-decoration: none;
 }
+/**about**/
+.row-about{
+  height: 600px;
+  background-color: #a6c1ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-abt{
+  display: flex;
+  flex-direction: row;
+  gap:70px;
+  width: 780px;
+  align-items: center;
+}
+.card-about{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.img-about{
+  width: 195px;
+}
+.text-abt, .text-bio{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 27px;
+}
+.text-abt p{
+  font-weight: 700;
+  text-decoration-line: underline;
+  margin-bottom: 0;
+}
+.text-abt span, .text-bio {
+  font-weight: 400;
+}
+
 
 
 @media (width < 992px){

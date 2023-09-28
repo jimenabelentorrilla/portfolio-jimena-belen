@@ -12,13 +12,11 @@ const Header = () => {
                   <div className="text-hd">
                     <span>Frontend Developer</span>
                     <h1>Jimena Belén Torrilla</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a class="btn-des">DESCARGAR CV</a>
                   </div>
               </Col>
               <Col>
-                  
-                      <img className="img-hd" src={Undraw}/>
-                 
+                <img className="img-hd" src={Undraw}/> 
               </Col>
           </Row>
         </Container>
