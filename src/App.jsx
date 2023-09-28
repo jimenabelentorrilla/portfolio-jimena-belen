@@ -5,6 +5,7 @@ import Naav from "./components/Naav";
 import Skills from "./components/Skillss";
 import Proyectos from './components/Proyectos';
 import About from "./components/About";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Proyectos />
       <About />
+      <Footer />
     </>
   )
 }

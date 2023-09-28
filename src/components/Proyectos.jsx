@@ -27,10 +27,10 @@ export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
                 </div>
                 <div className='btn-links'>
                     <div>
-                        <a href={linkGithub} target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#2F2E41'}}/> </a>
+                        <a href={linkGithub} target="_blank"><FontAwesomeIcon className="hover-icn" icon={faGithub} size="2x" /> </a>
                     </div>
-                    <div className="btn-sitio">
-                        <a  href={linkSitio} target="_blank">Ver sitio</a>
+                    <div className='btn-a'>
+                        <a href={linkSitio} target="_blank"><span className="btn-sitio">Ver sitio</span></a>
                     </div>
                     
                 </div>

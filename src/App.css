@@ -79,7 +79,7 @@ body {
 }
 /*btn descargar*/
 .btn-des {
-    padding: 12px 22px;
+    padding: 20px;
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
@@ -89,7 +89,7 @@ body {
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
-    border-radius: 16px;
+    border-radius: 50px;
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
  }
  .btn-des:hover {
@@ -190,13 +190,20 @@ body {
   align-items: center;
 }
 .btn-sitio{
-  border: #2D2D2D solid 1px;
-  padding: 6px 12px;
-  border-radius: 18px;
+  border: #ff8cde solid 1px;
+  border-radius: 26px;
+  padding: 8px 16px;
+  color: #ff8cde;
+  font-weight: 600;
 }
-.btn-sitio a{
-  color: #2D2D2D;
+.btn-a a{
   text-decoration: none;
+}
+.btn-sitio:hover{
+  transition: all .5s ease;
+  filter: hue-rotate(1turn);
+  background-color: #ff8cde;
+  color: #FFFFFF;
 }
 /**about**/
 .row-about{
@@ -236,6 +243,97 @@ body {
 }
 .text-abt span, .text-bio {
   font-weight: 400;
+}
+/**footer**/
+.row-footer{
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 70px 100px;
+}
+.gap-ftr{
+  display: flex;
+  flex-direction: row;
+  gap:190px;
+}
+.card-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+.card-text{
+  color: var(--Black, #2D2D2D);
+  font-family: Epilogue;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.card-text h2{
+font-size: 32px;
+font-weight: 600;
+line-height: 42px;
+}
+.card-text p{
+  width:360px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.flex-icon{
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+.hover-icn {
+  color: #000000;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.hover-icn:hover {
+  color: #ff8cde;
+  filter: hue-rotate(1turn);
+}
+.flex-input{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.input-footer input, .text-area{
+  display: flex;
+  width: 530px;
+  padding: 21px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #F3F3F3;
+  border: none;
+  color: #2D2D2D;
+  font-family: Epilogue;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.text-area{
+  height: 231px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.btn-form{
+  padding: 25px 82px;
+  background-color: #2D2D2D;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 @media (width < 992px){

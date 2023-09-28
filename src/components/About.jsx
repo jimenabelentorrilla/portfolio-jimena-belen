@@ -25,11 +25,7 @@ const About = () => {
                         <p className="text-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non provident neque molestiae expedita atque, autem, ipsa soluta, vitae sed magnam. Incidunt dolorum veritatis ea doloremque, ducimus optio esse officia!</p>
                     </div>
                     </div>
-                    
-                </Col>
-                
-                    
-               
+                </Col>               
           </Row>
         </Container>
     </>  
