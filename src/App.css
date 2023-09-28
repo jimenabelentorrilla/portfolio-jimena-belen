@@ -173,8 +173,6 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
- 
- 
 }
 .contenedor-titulo-skills p{
   color: var(--Black, #2D2D2D);
@@ -203,7 +201,7 @@ body {
 /**about**/
 .row-about{
   height: 600px;
-  background-color: #a6c1ee;
+  background-color: #fbc2eb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,8 +237,6 @@ body {
 .text-abt span, .text-bio {
   font-weight: 400;
 }
-
-
 
 @media (width < 992px){
   
