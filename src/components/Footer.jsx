@@ -36,7 +36,7 @@ const Footer = () => {
                                 <textarea 
                                     name="textarea" 
                                     className="text-area"
-                                    placeholder='Escribí tu mensaje aquí' />
+                                    placeholder='Escribí tu mensaje acá' />
                             </div>
                         </div>
                         <div>
