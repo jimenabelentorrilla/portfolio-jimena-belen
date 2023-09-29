@@ -215,6 +215,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(/src/assets/stars.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .flex-abt{
   display: flex;
@@ -234,7 +238,7 @@ body {
   border: 1.5px solid;
 }
 .text-abt, .text-bio{
-  color: var(--Black, #2D2D2D);
+  color: #2D2D2D;
   font-family: Epilogue;
   font-size: 17px;
   font-style: normal;
