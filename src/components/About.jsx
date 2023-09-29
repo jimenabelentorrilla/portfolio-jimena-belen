@@ -22,7 +22,7 @@ const About = () => {
                     </div>
 
                     <div>
-                        <p className="text-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non provident neque molestiae expedita atque, autem, ipsa soluta, vitae sed magnam. Incidunt dolorum veritatis ea doloremque, ducimus optio esse officia!</p>
+                        <p className="text-bio">En el cruce de la lógica y la creatividad, me desempeño como desarrolladora con experiencia en <strong>React, JavaScript, Bootstrap y CSS </strong>buscando constantemente desafíos intrigantes y la elaboración de un diseño elegante. Me motiva la capacidad de la tecnología para establecer conexiones significativas y enriquecer experiencias digitales.</p>
                     </div>
                     </div>
                 </Col>               

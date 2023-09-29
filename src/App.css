@@ -198,6 +198,7 @@ body {
   padding: 8px;
   color: #ff8cde;
   font-weight: 600;
+  font-size: 14px;
 }
 .btn-a a{
   text-decoration: none;
@@ -242,7 +243,8 @@ body {
   font-family: Epilogue;
   font-size: 17px;
   font-style: normal;
-  line-height: 27px;
+  line-height: 1.8;
+  text-align: left;
 }
 .text-abt p{
   font-weight: 700;
@@ -288,7 +290,7 @@ line-height: 42px;
   width:360px;
   font-size: 17px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 1.8;
 }
 .flex-icon{
   display: flex;

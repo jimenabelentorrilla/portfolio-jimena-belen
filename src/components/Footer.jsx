@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className='card-footer'>
                         <div className="card-text">
                             <h2>Sigamos en contacto.</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus obcaecati ut aliquid, consectetur maxime deserunt autem natus quasi sint? Quae debitis veritatis animi ab quos aperiam accusantium nam sequi in.</p>
+                            <p>Gracias por visitar mi portfolio. La colaboración y la conexión son fundamentales en este mundo digital. También podés seguirme en mis redes sociales para estar al tanto de las últimas novedades y proyectos. </p>
                         </div>
             
                         <div className="flex-icon">
