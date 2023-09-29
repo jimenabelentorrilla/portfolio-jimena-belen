@@ -194,8 +194,8 @@ body {
 }
 .btn-sitio{
   border: #ff8cde solid 1px;
-  border-radius: 26px;
-  padding: 8px 16px;
+  border-radius: 50px;
+  padding: 8px;
   color: #ff8cde;
   font-weight: 600;
 }
@@ -303,6 +303,9 @@ line-height: 42px;
 .hover-icn:hover {
   color: #ff8cde;
   filter: hue-rotate(1turn);
+}
+.fs-icon{
+  font-size: 36px;
 }
 .flex-input{
   display: flex;

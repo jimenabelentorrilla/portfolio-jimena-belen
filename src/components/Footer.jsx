@@ -17,8 +17,8 @@ const Footer = () => {
                         </div>
             
                         <div className="flex-icon">
-                            <a href="https://www.linkedin.com/in/jimena-belen-torrilla/" target="_blank"><FontAwesomeIcon className="hover-icn" icon={faLinkedin} size="2x" /></a>
-                            <a href="https://github.com/jimenabelentorrilla" target="_blank"><FontAwesomeIcon icon={faGithub} className="hover-icn" size="2x" /></a>
+                            <a href="https://www.linkedin.com/in/jimena-belen-torrilla/" target="_blank"><FontAwesomeIcon className="hover-icn fs-icon" icon={faLinkedin} /></a>
+                            <a href="https://github.com/jimenabelentorrilla" target="_blank"><FontAwesomeIcon icon={faGithub} className="hover-icn fs-icon" /></a>
                         </div>
                     </div>
                 </Col>
