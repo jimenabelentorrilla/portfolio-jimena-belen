@@ -14,10 +14,10 @@ const Skillss = () => {
                   <div className='flex-skills'>
                     <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-0.5" icon={faReact} size="4x" style={{ color: '#2F2E41'}} />
                     <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-1s" icon={faCss3} size="4x" style={{ color: '#2F2E41'}}/>
-                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-2s	" icon={faJs} size="4x" style={{ color: '#2F2E41'}}/> 
-                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-3s	" icon={faBootstrap} size="4x" style={{ color: '#2F2E41'}}/> 
-                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-4s	" icon={faSass} size="4x" style={{ color: '#2F2E41'}}/> 
-                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-5s	" icon={faGit} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-2s" icon={faJs} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-3s" icon={faBootstrap} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-4s" icon={faSass} size="4x" style={{ color: '#2F2E41'}}/> 
+                    <FontAwesomeIcon className="animate__animated animate__fadeInLeft animate__delay-5s" icon={faGit} size="4x" style={{ color: '#2F2E41'}}/> 
                   </div>
               </Col>
           </Row>
