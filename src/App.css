@@ -67,6 +67,7 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
+  opacity: 0.9;
 }
 .text-hd h1{
   font-size: 75px;
@@ -182,8 +183,9 @@ body {
   font-family: Epilogue;
   font-size: 17px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 27px;
+  opacity: 0.9;
 }
 .btn-links{
   display: flex;
@@ -227,6 +229,9 @@ body {
   gap:70px;
   width: 780px;
   align-items: center;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  padding: 55px;
 }
 .card-about{
   display: flex;
@@ -241,10 +246,11 @@ body {
 .text-abt, .text-bio{
   color: #2D2D2D;
   font-family: Epilogue;
-  font-size: 17px;
+  font-size: 16px;
   font-style: normal;
   line-height: 1.8;
   text-align: left;
+  opacity: 0.9;
 }
 .text-abt p{
   font-weight: 700;

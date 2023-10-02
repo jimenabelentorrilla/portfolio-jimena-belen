@@ -11,7 +11,6 @@ import Verificar from "../assets/verificar.svg";
 import Modal from 'react-bootstrap/Modal';
 
 
-
 const Footer = () => {
 
   const form = useRef();
