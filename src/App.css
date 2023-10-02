@@ -337,6 +337,18 @@ form{
   flex-direction: column;
   gap:40px;
 }
+.Modal-text{
+  text-align: center;
+}
+.Modal-flex-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;  
+}
+.Modal-flex-img img{
+  width:100px;
+}
 .btn-form{
   padding: 25px 82px;
   background-color: #2D2D2D;
