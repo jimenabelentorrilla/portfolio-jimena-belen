@@ -1,0 +1,37 @@
+/***nav**/
+.row-nav{
+    height: 80px;
+    display: flex;
+    align-content: center;
+  }
+  .logo{
+    color: var(--Black, #2D2D2D);
+    font-family: Epilogue;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .flex-nav{
+    display: flex;
+    justify-content: end;
+  }
+  .nav-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .nav-ul a{
+    color: #2D2D2D;
+    font-family: Epilogue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    transition: all .5s ease;
+    filter: hue-rotate(1turn); 
+  }
+  .nav-ul a:hover{
+    color: #ff8cde;
+  }

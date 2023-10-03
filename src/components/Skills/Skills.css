@@ -1,0 +1,11 @@
+/***skills***/
+.row-skills{
+    padding: 60px 0px;
+    border-top: 2px solid rgba(0, 0, 0, 0.20);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+  }
+  .flex-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

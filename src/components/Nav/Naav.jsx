@@ -1,7 +1,8 @@
+import './Nav.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Menu from "../assets/Menu.png";
+import Menu from "../../assets/Menu.png";
 
 const Naav = () => {
   return (
@@ -24,7 +25,6 @@ const Naav = () => {
                             <a href="#contacto"><li>Contacto</li></a>
                         </ul>
                     </div>
-                    
                 </Col>
             </Row>
         </Container>

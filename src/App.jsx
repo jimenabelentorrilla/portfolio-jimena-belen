@@ -1,12 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-import Naav from "./components/Naav";
-import Skills from "./components/Skillss";
-import Proyectos from './components/Proyectos';
-import About from "./components/About";
-import Footer from './components/Footer';
-
+import Header from './components/Header/Header';
+import Naav from "./components/Nav/Naav";
+import Skills from "./components/Skills/Skills";
+import Proyectos from './components/Projects/Proyectos';
+import About from "./components/About/About";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

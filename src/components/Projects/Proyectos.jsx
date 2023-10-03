@@ -1,3 +1,4 @@
+import './Projects.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -5,11 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**assets**/
-import ProyectoUno from "../assets/tipcalc.jpg";
-import ProyectoDos from "../assets/streaming.png";
-import ProyectoTres from "../assets/gourmet.jpg";
-
-
+import ProyectoUno from "../../assets/tipcalc.jpg";
+import ProyectoDos from "../../assets/streaming.png";
+import ProyectoTres from "../../assets/gourmet.jpg";
 
 
 export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {

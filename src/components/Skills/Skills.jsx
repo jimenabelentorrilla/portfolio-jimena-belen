@@ -1,3 +1,4 @@
+import './Skills.css';
 import 'animate.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -5,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faCss3, faJs, faBootstrap, faSass, faGit } from '@fortawesome/free-brands-svg-icons';
 
-const Skillss = () => {
+const Skills = () => {
   return (
     <>
         <Container>
@@ -26,4 +27,4 @@ const Skillss = () => {
   )
 }
 
-export default Skillss;
+export default Skills;

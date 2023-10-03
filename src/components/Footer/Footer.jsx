@@ -1,4 +1,6 @@
-import React, { useRef, useState  } from 'react';
+import './Footer.css';
+import React, { useRef, useState } from 'react';
+
 import emailjs from '@emailjs/browser';
 
 import Container from 'react-bootstrap/Container';
@@ -6,10 +8,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import Verificar from "../assets/verificar.svg";
+import Verificar from "../../assets/verificar.svg";
 
 import Modal from 'react-bootstrap/Modal';
-
 
 const Footer = () => {
 
@@ -27,13 +28,13 @@ const Footer = () => {
           console.log(error.text);
       });
   };
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
   return (
     <>
-        <Container  id="contacto" className="row-footer" >
+        <Container id="contacto" className="row-footer" >
           <Row className="gap-ftr">
                 <Col>
                     <div className='card-footer'>
@@ -57,7 +58,6 @@ const Footer = () => {
                             <div className="input-footer">
                                 <input name="user_email" type="email" placeholder='Email' required ></input>
                             </div>
-
                             <div>
                                 <textarea 
                                     name="message" 
