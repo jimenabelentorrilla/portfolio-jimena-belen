@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Undraw from "../../assets/undraw.svg";
 import TrackVisibility from 'react-on-screen';
+import CV from "../../assets/CV-Torrilla-Jimena-Belen.pdf";
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
                     <div className="text-hd">
                         <span>Frontend Developer</span>
                         <h1>Jimena Belén Torrilla</h1>
-                        <a class="btn-des">DESCARGAR CV</a>
+                        <a href={CV} target='blank' class="btn-des">DESCARGAR CV</a>
                     </div>
                 </Col>
                 <Col>
