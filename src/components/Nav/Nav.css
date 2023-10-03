@@ -35,3 +35,16 @@
   .nav-ul a:hover{
     color: #ff8cde;
   }
+
+  /**mq**/
+  @media (min-width: 576px) and (max-width: 767.99px){
+    .menu{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.99px){
+    .menu{
+      display: none;
+    }
+  }

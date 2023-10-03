@@ -109,3 +109,63 @@
   .btn-form:hover{
     background-color: #2d2d2de3;
   }
+
+
+
+  /**mq**/
+  @media (min-width: 576px) and (max-width: 767.99px){
+    .row-footer {
+      height: 1200px;
+      align-items: center;
+    }
+    .card-footer{
+      align-items: center;
+    } 
+    .gap-ftr {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+    }
+    .card-text p{
+      width:480px;
+    } 
+  }
+
+  @media (min-width: 768px) and (max-width: 991.99px){
+    .row-footer {
+      height: 1200px;
+      align-items: center;
+    }
+    .card-footer{
+      align-items: center;
+    } 
+    .gap-ftr {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+    }
+    .card-text p{
+      width:480px;
+    } 
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.99px) {
+    .row-footer {
+      height: 1300px;
+      align-items: center;
+    }
+    .card-footer{
+      align-items: center;
+    } 
+    .gap-ftr {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+    }
+    .card-text p{
+      width:480px;
+    }  
+   }
+  @media (min-width: 1200px) and (max-width: 1399.99px) {
+
+  } 

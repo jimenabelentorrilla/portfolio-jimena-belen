@@ -18,6 +18,10 @@ body {
   }
   
 }
+
+
+
+
 @media (width > 992px){
   .menu{
     display: none;

@@ -9,3 +9,35 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .skills{
+    font-size: 4em;
+  }
+
+  
+  @media (min-width: 576px) and (max-width: 767.99px){
+    .skill{
+      font-size:3em;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.99px){
+    .skill{
+      font-size:3em;
+    }
+  }
+ 
+  @media (min-width: 992px) and (max-width: 1199.99px) { 
+    .skill{
+      font-size: 3em;
+   }
+  }
+  @media (min-width: 1200px) and (max-width: 1399.99px) {
+    .skill{
+      font-size: 4em;
+   }
+  }
+  @media (min-width: 1400px){
+    .skill{
+      font-size: 4em;
+   }
+  } 

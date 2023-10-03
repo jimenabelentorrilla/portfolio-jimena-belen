@@ -9,12 +9,12 @@ const Naav = () => {
     <>
         <Container>
             <Row className="row-nav">
-                <Col>
+                <Col sm={2} md={4}>
                     <div>
                         <span className="logo">JBT.</span>
                     </div>
                 </Col>
-                <Col className="flex-nav">
+                <Col sm={10} md={8} className="flex-nav">
                     <div>
                         <img className="menu" src={Menu}/>
                     </div>
