@@ -3,8 +3,9 @@ import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Menu from "../../assets/Menu.png";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 const Naav = () => {
@@ -24,8 +25,8 @@ const Naav = () => {
                     </div>
                 </Col>
                 <Col xs={6} sm={10} md={8} className="flex-nav">
-                    <div>
-                        <img onClick={handleShow} className="menu" src={Menu}/>
+                    <div className="menu">
+                        <FontAwesomeIcon onClick={handleShow} size="2x" icon={faBars} style={{ color: '#2F2E41'}} />
                     </div>
                     <div>
                         <ul className='nav-ul'>
