@@ -44,9 +44,9 @@ const Naav = () => {
         <Offcanvas.Body>
             <div>
                 <ul className='nav-hm'>
-                    <a href="#proyectos"><li>Proyectos</li></a>
-                    <a href="#about"><li>Sobre mi</li></a>
-                    <a href="#contacto"><li>Contacto</li></a>
+                    <a onClick={handleClose} href="#proyectos"><li>Proyectos</li></a>
+                    <a onClick={handleClose} href="#about"><li>Sobre mi</li></a>
+                    <a onClick={handleClose} href="#contacto"><li>Contacto</li></a>
                 </ul>
             </div>
         </Offcanvas.Body>

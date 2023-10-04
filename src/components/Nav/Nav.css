@@ -57,6 +57,9 @@
     .row-nav{
       padding:20px;
     }
+    .logo{
+      font-size: 32px;
+    }
   }
 
   @media (min-width: 576px) and (max-width: 767.99px){
