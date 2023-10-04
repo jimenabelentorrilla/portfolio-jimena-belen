@@ -191,5 +191,9 @@
     }  
    }
   @media (min-width: 1200px) and (max-width: 1399.99px) {
-
-  } 
+    .gap-ftr {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+  } ;
