@@ -115,7 +115,7 @@
   /**mq**/
   @media (width < 575.99px){
     .row-footer {
-      height: 1100px;
+      height: 1050px;
       align-items: center;
     }
     .card-footer{
@@ -128,9 +128,15 @@
       gap: 100px;
     }
     .card-text p {
-      width: 320px;
-      font-size: 15px;
-  }
+      width: 295px;
+      font-size: 13px;
+    }
+    .card-text h2{
+      font-size: 25px;
+    }
+    .card-text{
+      gap:20px;
+    }
     .input-footer input {
       width: 300px;
     }
