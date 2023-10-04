@@ -99,13 +99,25 @@
   /***mq****/
   @media (width < 575.99px){
     .hg-pro{
-      height: 1480px;
+      height: 1350px;
     }
     .row-proy{
       flex-direction: column;
     }
     .row-proy{
       gap:65px;
+    }
+    .img-proyecto-size{
+      width: 300px;
+    }
+    .contenedor-titulo-skills{
+      gap:0px;
+    }
+    .contenedor-titulo-skills h3{
+      font-size: 17px;
+    }
+    .contenedor-titulo-skills p{
+      font-size: 14px;
     }
   }
   @media (min-width: 576px) and (max-width: 767.99px){
