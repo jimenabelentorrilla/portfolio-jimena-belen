@@ -21,10 +21,20 @@
     flex-direction: row;
     gap: 50px;
   }
+  .nav-hm{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+  }
+  .nav-hm a {
+    font-size: 22px;
+  }
   .nav-ul a{
+    font-size: 17px;
+  }
+  .nav-ul a, .nav-hm a{
     color: #2D2D2D;
     font-family: Epilogue;
-    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -44,6 +54,7 @@
     .row-nav{
       padding:20px;
     }
+    
   } 
   @media (min-width: 576px) and (max-width: 767.99px){
     .menu{
