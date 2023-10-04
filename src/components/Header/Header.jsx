@@ -14,7 +14,7 @@ const Header = () => {
           <TrackVisibility>
             {({isVisible}) =>
             <Row className={`row-header ${isVisible ? "animate__animated animate__fadeIn" : ""}`}>
-                <Col>
+                <Col xs={12}>
                     <div className="text-hd">
                         <span>Frontend Developer</span>
                         <h1>Jimena Belén Torrilla</h1>

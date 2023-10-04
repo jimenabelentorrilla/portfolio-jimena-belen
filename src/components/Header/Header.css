@@ -70,6 +70,31 @@
 
 
 /**mq***/
+@media (width <  575.99px){
+  .row-header{
+    height: 350px;
+  }
+  .text-hd h1{
+    font-size: 45px;
+    line-height: 55px;
+    width: 390px;
+  }
+  .text-hd{
+    gap:15px;
+    width:300px;
+  }
+  .text-hd span{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .btn-des{
+    padding:10px;
+    font-size:0.8rem;
+  }
+  .img-hd{
+    display: none;
+  } 
+ }
 
 @media (min-width: 576px) and (max-width: 767.99px){
   .row-header{

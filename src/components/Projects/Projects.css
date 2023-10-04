@@ -97,6 +97,17 @@
 
 
   /***mq****/
+  @media (width < 575.99px){
+    .hg-pro{
+      height: 1480px;
+    }
+    .row-proy{
+      flex-direction: column;
+    }
+    .row-proy{
+      gap:65px;
+    }
+  }
   @media (min-width: 576px) and (max-width: 767.99px){
     .hg-pro{
       height: 1480px;

@@ -113,6 +113,30 @@
 
 
   /**mq**/
+  @media (width < 575.99px){
+    .row-footer {
+      height: 1200px;
+      align-items: center;
+    }
+    .card-footer{
+      align-items: center;
+    } 
+    .gap-ftr {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+    }
+    .card-text p {
+      width: 320px;
+      font-size: 15px;
+  }
+    .input-footer input {
+      width: 330px;
+    }
+    .text-area{
+      width:330px;
+    } 
+  }
   @media (min-width: 576px) and (max-width: 767.99px){
     .row-footer {
       height: 1200px;
