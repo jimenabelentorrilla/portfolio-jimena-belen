@@ -70,7 +70,7 @@
 
 
 /**mq***/
-@media (width <  575.99px){
+@media (width < 575.99px){
   .row-header{
     height: 350px;
   }
