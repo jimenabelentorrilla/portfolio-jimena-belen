@@ -15,7 +15,10 @@
  /**mq**/
   @media (width < 575.99px){
     .skill{
-      font-size:2.5em;
+      font-size:2em;
+    }
+    .row-skills{
+      padding: 45px 0px;
     }
   }
   
