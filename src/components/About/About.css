@@ -52,6 +52,7 @@
    @media (width <  575.99px){
     .row-about{
       height:900px;
+      background-repeat: repeat;
     }
     .flex-abt{
       flex-direction: column;
@@ -62,6 +63,7 @@
     .text-bio{
       font-size: 13px;
     }
+
    }
 
    @media (min-width: 576px) and (max-width: 767.99px){
