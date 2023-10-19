@@ -11,9 +11,7 @@ const Header = () => {
   return (
     <>
         <Container>
-          <TrackVisibility>
-            {({isVisible}) =>
-            <Row className={`row-header ${isVisible ? "animate__animated animate__fadeIn" : ""}`}>
+            <Row className="row-header animate__animated animate__fadeIn">
                 <Col>
                     <div className="text-hd">
                         <span>Frontend Developer</span>
@@ -26,8 +24,7 @@ const Header = () => {
                     <img className="img-hd" src={Undraw}/>
                   </div>
                 </Col>
-            </Row> }
-          </TrackVisibility>
+            </Row>
         </Container>
     </>  
   )
