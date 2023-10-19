@@ -95,32 +95,34 @@
     font-size:0.8rem;
   }
   .row-header{
-    gap:35px;
+    gap: 45px;
     justify-content: center;
+  }
+  .text-bio{
+    font-size: 14px;
   }
  }
 
 @media (min-width: 576px) and (max-width: 767.99px){
 
   .text-hd h1{
-    font-size: 34px;
+    font-size: 38px;
     line-height: 45px;
   }
   .text-hd{
-    gap:15px;
+    gap: 20px;
   }
   .text-hd span{
     font-size: 1rem;
     line-height: 15px;
   }
   .btn-des{
-    padding:10px;
-    font-size:0.8rem;
+    padding: 10px;
+    font-size: 0.8rem;
   }
   .row-header{
-    gap:35px;
+    gap: 35px;
     justify-content: center;
-
   } 
 }
 
@@ -140,7 +142,6 @@
   .row-header{
     gap:35px;
     justify-content: center;
-
   }
 }
 
@@ -153,7 +154,6 @@
   .row-header{
     gap:35px;
     justify-content: center;
-
   }
   }
   
