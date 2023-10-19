@@ -9,34 +9,33 @@ import { faReact, faCss3, faJs, faBootstrap, faSass, faGit } from '@fortawesome/
 const icons = [
   {
       "id": "1",
-      "icon": faReact,
-      "delay": "animate__delay-0.5"
-
+      "name": "React",
+      "icon": faReact
   },
   {
       "id": "2",
-      "icon": faCss3,
-      "delay": "animate__delay-1s"
+      "name": "CSS",
+      "icon": faCss3 
   },
   {
       "id": "3",
-      "icon": faJs,
-      "delay": "animate__delay-2s"
+      "name": "JavaScript",
+      "icon": faJs    
   },
   {
       "id": "4",
-      "icon": faBootstrap,
-      "delay": "animate__delay-3s"
+      "name": "Bootstrap",
+      "icon": faBootstrap
   },
   {
       "id": "5",
-      "icon": faSass,
-      "delay": "animate__delay-4s"
+      "name": "Sass",
+      "icon": faSass
   },
   {
       "id": "6",
-      "icon": faGit,
-      "delay": "animate__delay-5s"
+      "name": "Git",
+      "icon": faGit
   }
 ]
 
@@ -50,12 +49,20 @@ const Skills = () => {
                     {
                       icons.map(icon => {
                         return (
-                          <FontAwesomeIcon
-                            key={icon.id} 
-                            className={`animate__animated animate__fadeInLeft skill ${icon.delay}`} 
-                            style={{ color: '#2F2E41'}}
-                            icon={icon.icon}
-                            />
+                          <div className="animate__animated animate__fadeInLeft animate__delay-0.5s flex-skill-icon">
+                            <div>
+                              <FontAwesomeIcon
+                                key={icon.id} 
+                                className='skill'
+                                style={{ color: '#2F2E41'}}
+                                icon={icon.icon}
+                              />
+                            </div>
+                            <div>
+                              <p className='icon-name'>{icon.name}</p>
+                            </div>
+                          </div>
+                          
                         )})
                     }
                   </div>

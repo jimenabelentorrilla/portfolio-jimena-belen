@@ -12,6 +12,20 @@
   .skills{
     font-size: 4em;
   }
+  .flex-skill-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+  }
+  .icon-name{
+    font-size: 18px;
+    font-family: Epilogue;
+    color: var(--Black, #2D2D2D);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
  /**mq**/
   @media (width < 575.99px){
     .skill{
