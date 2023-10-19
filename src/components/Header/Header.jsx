@@ -3,8 +3,6 @@ import 'animate.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Undraw from "../../assets/undraw.svg";
-import TrackVisibility from 'react-on-screen';
 import CV from "../../assets/CV-Torrilla-Jimena-Belen.pdf";
 
 const Header = () => {
@@ -21,7 +19,8 @@ const Header = () => {
                 </Col>
                 <Col>
                   <div>
-                    <img className="img-hd" src={Undraw}/>
+                      <p className="text-bio">En el cruce de la lógica y la creatividad, me desempeño como desarrolladora con experiencia en <strong>React, JavaScript, Bootstrap y CSS </strong>buscando constantemente desafíos intrigantes.</p>
+                      <p className="text-bio"> Me motiva la capacidad de la tecnología para establecer conexiones significativas y enriquecer experiencias digitales.</p>
                   </div>
                 </Col>
             </Row>
