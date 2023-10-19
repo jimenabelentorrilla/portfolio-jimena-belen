@@ -42,7 +42,7 @@ const icons = [
 const Skills = () => {
   return (
     <>
-        <Container>
+        <Container id="skills">
           <Row className="row-skills">
               <Col>
                   <div className='flex-skills'>

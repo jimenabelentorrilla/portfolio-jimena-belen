@@ -31,7 +31,7 @@ const Naav = () => {
                     <div>
                         <ul className='nav-ul'>
                             <a href="#proyectos"><li>Proyectos</li></a>
-                            <a href="#about"><li>Sobre mi</li></a>
+                            <a href="#skills"><li>Skills</li></a>
                             <a href="#contacto"><li>Contacto</li></a>
                         </ul>
                     </div>
