@@ -10,14 +10,14 @@ const Header = () => {
     <>
         <Container>
             <Row className="row-header animate__animated animate__fadeIn">
-                <Col>
+                <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <div className="text-hd">
                         <span>Frontend Developer</span>
                         <h1>Jimena Belén Torrilla</h1>
                         <a href={CV} target='blank' class="btn-des">DESCARGAR CV</a>
                     </div>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                   <div>
                       <p className="text-bio">En el cruce de la lógica y la creatividad, me desempeño como desarrolladora con experiencia en <strong>React, JavaScript, Bootstrap y CSS </strong>buscando constantemente desafíos intrigantes.</p>
                       <p className="text-bio"> Me motiva la capacidad de la tecnología para establecer conexiones significativas y enriquecer experiencias digitales.</p>

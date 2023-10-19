@@ -77,9 +77,6 @@
 
 /**mq***/
 @media (width < 575.99px){
-  .row-header{
-    height: 315px;
-  }
   .text-hd h1{
     font-size: 45px;
     line-height: 55px;
@@ -100,9 +97,7 @@
  }
 
 @media (min-width: 576px) and (max-width: 767.99px){
-  .row-header{
-    height: 400px;
-  }
+
   .text-hd h1{
     font-size: 34px;
     line-height: 45px;
@@ -121,9 +116,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.99px){
-  .row-header{
-    height: 500px;
-  }
+ 
   .text-hd h1{
     font-size: 45px;
     line-height: 50px;
