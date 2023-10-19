@@ -9,12 +9,12 @@ import { faReact, faCss3, faJs, faBootstrap, faSass, faGit } from '@fortawesome/
 const icons = [
   {
       "id": "1",
-      "name": "React",
+      "name": "React.js",
       "icon": faReact
   },
   {
       "id": "2",
-      "name": "CSS",
+      "name": "CSS3",
       "icon": faCss3 
   },
   {
