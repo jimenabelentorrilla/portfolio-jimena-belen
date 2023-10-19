@@ -1,5 +1,6 @@
 /***skills***/
 .row-skills{
+    height: auto;
     padding: 60px 0px;
     border-top: 2px solid rgba(0, 0, 0, 0.20);
     border-bottom: 2px solid rgba(0, 0, 0, 0.20);
@@ -19,12 +20,12 @@
     gap: 13px;
   }
   .icon-name{
-    font-size: 18px;
     font-family: Epilogue;
     color: var(--Black, #2D2D2D);
     font-style: normal;
     font-weight: 800;
     text-transform: uppercase;
+    margin:0;
   }
  /**mq**/
   @media (width < 575.99px){
@@ -34,11 +35,17 @@
     .row-skills{
       padding: 45px 0px;
     }
+    .icon-name{
+      font-size: 14px;
+    }
   }
   
   @media (min-width: 576px) and (max-width: 767.99px){
     .skill{
       font-size:3em;
+    }
+    .icon-name{
+      font-size: 16px;
     }
   }
   
@@ -46,20 +53,32 @@
     .skill{
       font-size:3em;
     }
+    .icon-name{
+      font-size: 16px;
+    }
   }
  
   @media (min-width: 992px) and (max-width: 1199.99px) { 
     .skill{
       font-size: 3em;
    }
+   .icon-name{
+    font-size: 16px;
+  }
   }
   @media (min-width: 1200px) and (max-width: 1399.99px) {
     .skill{
       font-size: 4em;
    }
+   .icon-name{
+    font-size: 18px;
+  }
   }
   @media (min-width: 1400px){
     .skill{
       font-size: 4em;
    }
+   .icon-name{
+    font-size: 18px;
+  }
   } 
