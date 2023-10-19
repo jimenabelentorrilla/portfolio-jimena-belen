@@ -34,7 +34,7 @@ const Footer = () => {
 
   return (
     <>
-        <Container id="contacto" className="row-footer" >
+        <Container id="contacto" fluid className="row-footer" >
           <Row className="gap-ftr">
                 <Col>
                     <div className='card-footer'>
