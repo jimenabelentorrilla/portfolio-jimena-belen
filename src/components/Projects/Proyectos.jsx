@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**assets**/
-import ProyectoUno from "../../assets/tipcalc.jpg";
+import ProyectoUno from "../../assets/mov.jpg";
 import ProyectoDos from "../../assets/streaming.png";
 import ProyectoTres from "../../assets/gourmet.jpg";
 
@@ -16,7 +16,7 @@ export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
     <>
         <div className='contenedor-card'>
             <div>
-                <a target="_blank" href={linkSitio}><img className="img-proyecto-size" src={imagen} /></a>
+                <a target="_blank" href={linkSitio}> <img className="img-proyecto-size" src={imagen} /></a>
             </div>
             
             <div className='contenedor-info-flex'>
@@ -53,10 +53,10 @@ const Proyectos = () => {
                 <Col className="row-proy">
                     <Proyecto 
                         imagen={ProyectoUno}
-                        titulo="Tip Calculator App"
-                        skills="React - CSS- Bootstrap"
-                        linkSitio="https://tip-calculator-fmio.netlify.app/"
-                        linkGithub="https://github.com/jimenabelentorrilla/tip-calculator-fm.io" />
+                        titulo="Movimientos Artísticos"
+                        skills="HTML - CSS- JavaScript"
+                        linkSitio="https://movimientos.netlify.app/"
+                        linkGithub="https://github.com/jimenabelentorrilla/BAM-C48" />
                     <Proyecto 
                         imagen={ProyectoDos}
                         titulo="Streaming Website"
