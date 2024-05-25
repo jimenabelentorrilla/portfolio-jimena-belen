@@ -35,7 +35,7 @@ const Naav = () => {
         <Offcanvas show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
             <Offcanvas.Body>
-                <ul className='nav-hm d-flex flex-column gap-3'>
+                <ul className='nav-hm d-flex flex-column gap-4'>
                     <a onClick={handleClose} href="#proyectos"><li>Proyectos</li></a>
                     <a onClick={handleClose} href="#about"><li>Sobre mi</li></a>
                     <a onClick={handleClose} href="#contacto"><li>Contacto</li></a>

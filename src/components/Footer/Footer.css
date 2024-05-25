@@ -1,11 +1,12 @@
 /**footer**/
   .row-footer{
-    min-height: 75em;
+    min-height: 65em;
     background-color: #fbc2eb;
     background-image: url(/src/assets/stars.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
   }
   .gap-ftr{
     flex-direction: column;
@@ -15,7 +16,8 @@
     gap: 1.25rem;
     background-color: whitesmoke;
     border-radius: 1em !important;
-    max-width: 100%;
+    max-width: 25.35rem;
+    margin-inline:auto;
     padding: 2.8em;
   }
   .card-text{
@@ -70,23 +72,27 @@
     text-align: center;
     font-weight: 600;
     line-height: 30px;
-    border:none;
+    border: none;
     transition: .3s all ease;
   }
   .btn-form:hover{
     background-color: #2d2d2de3;
   }
+  form{
+    max-width: 22.35rem;
+    margin-inline:auto;
+  }
 
   /**mq**/
   @media (width < 575.99px){
     .card-text h2{
-      font-size:1.1em;
+      font-size:1.3em;
     }
     .fs-icon{
-      font-size: 1.4em;
+      font-size: 1.5em;
     }
     .input-footer input, .text-area, .card-text p{
-      font-size: 0.7em; 
+      font-size: 0.8em; 
     }
     .btn-form{
       font-size: 0.8em;
@@ -97,10 +103,10 @@
   }
   @media (min-width: 576px) and (max-width: 767.99px){
     .card-text h2{
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
     .fs-icon{
-      font-size: 1.5em;
+      font-size: 1.6em;
     }
     .input-footer input, .text-area, .card-text p{
       font-size: 0.8em; 
@@ -127,7 +133,7 @@
 
   @media (min-width: 992px) and (max-width: 1199.99px) {
     .card-text h2{
-      font-size:1.8em;
+      font-size:1.6em;
     }
     .fs-icon{
       font-size: 2em;
@@ -144,13 +150,13 @@
       flex-direction: row;
     }
     .card-text h2{
-      font-size:2em;
+      font-size:1.5em;
     }
     .fs-icon{
-      font-size: 2.25em;
+      font-size: 2em;
     }
     .input-footer input, .text-area, .card-text p{
-      font-size: 1.063em; 
+      font-size: 1em; 
     }
     .btn-form{
       font-size: 1.25em;

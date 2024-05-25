@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**assets**/
 import ProyectoUno from "../../assets/mov.jpg";
-import ProyectoDos from "../../assets/streaming.png";
+import ProyectoDos from "../../assets/domo.png";
 import ProyectoTres from "../../assets/gourmet.jpg";
 
 
@@ -47,16 +47,16 @@ const cards = [
     },
     {
         imagen: ProyectoDos,
-        titulo: "sarasa",
-        skills:"sadasd",
-        linkSitio:"",
-        linkGithub:""
+        titulo: "DOMO",
+        skills:"React.js - CSS - Bootstrap",
+        linkSitio:"https://challenge-torrilla.netlify.app/",
+        linkGithub:"https://github.com/jimenabelentorrilla/landing-challenge"
     },
     {
         imagen: ProyectoTres,
-        titulo: "sarasa",
-        skills:"asdasd",
-        linkSitio:"",
+        titulo: "Gourmet Burger Kitchen",
+        skills:"React.js - CSS - Bootstrap",
+        linkSitio:"https://gourmet-burger-kitchen.netlify.app/",
         linkGithub:""
     }
   ];
