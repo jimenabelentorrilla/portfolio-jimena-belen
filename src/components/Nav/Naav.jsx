@@ -11,46 +11,37 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Naav = () => {
 
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   return (
     <>
         <Container>
-            <Row className="row-nav">
-                <Col xs={6} sm={2} md={4}>
-                    <div>
-                        <span className="logo">JBT.</span>
-                    </div>
-                </Col>
-                <Col xs={6} sm={10} md={8} className="flex-nav">
+            <Row className="row-nav d-flex align-content-center">
+                <Col className="d-flex align-items-center justify-content-between">
+                    <p className="logo">JBT.</p>
                     <div className="menu">
                         <FontAwesomeIcon onClick={handleShow} size="2x" icon={faBars} style={{ color: '#2F2E41'}} />
                     </div>
-                    <div>
-                        <ul className='nav-ul'>
-                            <a href="#proyectos"><li>Proyectos</li></a>
-                            <a href="#skills"><li>Skills</li></a>
-                            <a href="#contacto"><li>Contacto</li></a>
-                        </ul>
-                    </div>
+                    <ul className='nav-ul'>
+                        <a href="#proyectos"><li>Proyectos</li></a>
+                        <a href="#skills"><li>Skills</li></a>
+                        <a href="#contacto"><li>Contacto</li></a>
+                    </ul>
                 </Col>
             </Row>
-    </Container>
+        </Container>
 
-    <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
-        <Offcanvas.Body>
-            <div>
-                <ul className='nav-hm'>
+        <Offcanvas show={show} onHide={handleClose}>
+            <Offcanvas.Header closeButton><Offcanvas.Title></Offcanvas.Title></Offcanvas.Header>
+            <Offcanvas.Body>
+                <ul className='nav-hm d-flex flex-column gap-3'>
                     <a onClick={handleClose} href="#proyectos"><li>Proyectos</li></a>
                     <a onClick={handleClose} href="#about"><li>Sobre mi</li></a>
                     <a onClick={handleClose} href="#contacto"><li>Contacto</li></a>
                 </ul>
-            </div>
-        </Offcanvas.Body>
-      </Offcanvas>
+            </Offcanvas.Body>
+        </Offcanvas>
     </>
   )
 }

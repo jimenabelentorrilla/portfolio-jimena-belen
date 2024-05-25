@@ -1,29 +1,15 @@
 #root {
-  background: #FFFFFF;
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
-body {
+  background-image: linear-gradient(to bottom, #fdfbfb 50%, #FBC2EB 100%);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Epilogue;
+  margin-inline:auto;
 }
-
-
-@media (width < 992px){
-  
-  .nav-ul{
-    display: none;
-  }
-  
-}
-
-
-
-
-@media (width > 992px){
-  .menu{
-    display: none;
-  }
+.row-nav, 
+.row-header,
+.row-skills,
+.row-footer {
+  padding: 2em;
 }

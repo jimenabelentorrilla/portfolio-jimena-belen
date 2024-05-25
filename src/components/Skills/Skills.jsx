@@ -1,5 +1,4 @@
 import './Skills.css';
-import 'animate.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -43,13 +42,13 @@ const Skills = () => {
   return (
     <>
         <Container id="skills">
-          <Row className="row-skills">
+          <Row className="row-skills d-flex align-items-center">
               <Col>
-                  <div className='flex-skills'>
+                  <div className='d-flex justify-content-between flex-wrap gap-3 align-items-center'>
                     {
                       icons.map(icon => {
                         return (
-                          <div className="animate__animated animate__fadeInLeft animate__delay-0.5s flex-skill-icon">
+                          <div className="d-flex flex-column align-items-center gap-3">
                             <div>
                               <FontAwesomeIcon
                                 key={icon.id} 
@@ -62,8 +61,7 @@ const Skills = () => {
                               <p className='icon-name'>{icon.name}</p>
                             </div>
                           </div>
-                          
-                        )})
+                      )})
                     }
                   </div>
               </Col>

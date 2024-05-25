@@ -34,24 +34,24 @@ const Footer = () => {
 
   return (
     <>
-        <Container id="contacto" fluid className="row-footer" >
-          <Row className="gap-ftr">
+        <Container id="contacto" fluid className="row-footer d-flex justify-content-center align-items-center" >
+          <Row className="gap-ftr d-flex gap-5">
                 <Col>
-                    <div className='card-footer'>
-                        <div className="card-text">
+                    <div className='card-footer d-flex flex-column align-items-start'>
+                        <div className="card-text d-flex flex-column gap-2">
                             <h2>Sigamos en contacto.</h2>
                             <p>La colaboración y la conexión son fundamentales en este mundo digital. También podés seguirme en mis redes sociales para estar al tanto de las últimas novedades y proyectos. </p>
                         </div>
             
-                        <div className="flex-icon">
+                        <div className="flex-icon d-flex gap-2">
                             <a href="https://www.linkedin.com/in/jimena-belen-torrilla/" target="_blank"><FontAwesomeIcon className="hover-icn fs-icon" icon={faLinkedin} /></a>
                             <a href="https://github.com/jimenabelentorrilla" target="_blank"><FontAwesomeIcon icon={faGithub} className="hover-icn fs-icon" /></a>
                         </div>
                     </div>
                 </Col>
                 <Col>
-                    <form ref={form} onSubmit={sendEmail}>
-                        <div className="flex-input">
+                    <form ref={form} onSubmit={sendEmail} className="d-flex flex-column gap-4">
+                        <div className="flex-input d-flex flex-column gap-3">
                             <div className="input-footer">
                                 <input name="user_name" type='text' placeholder='Nombre' required></input>
                             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
         
             <Modal.Body>
                 <div>
-                    <div className='Modal-flex-img'>
+                    <div className='Modal-flex-img d-flex flex-column align-items-center'>
                         <img src={Verificar} />
                     </div> 
                     <div className='Modal-text'>

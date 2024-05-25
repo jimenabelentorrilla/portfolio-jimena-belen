@@ -3,22 +3,21 @@ import 'animate.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CV from "../../assets/CV-Torrilla-Jimena-Belen.pdf";
 
 const Header = () => {
   return (
     <>
         <Container>
-            <Row className="row-header animate__animated animate__fadeIn">
-                <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
-                    <div className="text-hd">
+            <Row className="row-header d-flex align-content-center justify-content-between animate__animated animate__fadeIn">
+                <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
+                    <div className="text-hd d-flex flex-column align-items-start">
                         <span>Frontend Developer</span>
                         <h1>Jimena Belén Torrilla</h1>
-                        <a href={CV} target='blank' class="btn-des">DESCARGAR CV</a>
+                        <a href="https://drive.google.com/file/d/1zg5TCq0myHsC8QHCz_4jj0GJj6P__CX3/view?usp=sharing" target='blank' class="btn-des">DESCARGAR CV</a>
                     </div>
                 </Col>
-                <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
-                  <div>
+                <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
+                  <div className="d-flex flex-column justify-content-end">
                       <p className="text-bio">En el cruce de la lógica y la creatividad, me desempeño como desarrolladora con experiencia en <strong>React, JavaScript, Bootstrap y CSS </strong>buscando constantemente desafíos intrigantes.</p>
                       <p className="text-bio"> Me motiva la capacidad de la tecnología para establecer conexiones significativas y enriquecer experiencias digitales.</p>
                   </div>

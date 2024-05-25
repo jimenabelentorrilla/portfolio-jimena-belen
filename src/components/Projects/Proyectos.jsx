@@ -14,24 +14,22 @@ import ProyectoTres from "../../assets/gourmet.jpg";
 export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
   return (
     <>
-        <div className='contenedor-card'>
-            <div>
+        <div className='d-flex flex-column gap-3'>
+            <div className="cnt-imagen">
                 <a target="_blank" href={linkSitio}> <img className="img-proyecto-size" src={imagen} /></a>
             </div>
-            
-            <div className='contenedor-info-flex'>
-                <div className='contenedor-titulo-skills'>
+            <div className='d-flex align-items-center justify-content-between'>
+                <div className='contenedor-titulo-skills d-flex flex-column align-items-start gap-1'>
                     <h3>{titulo}</h3>
                     <p>{skills}</p>
                 </div>
-                <div className='btn-links'>
+                <div className='d-flex gap-2 justify-content-between align-items-center'>
                     <div>
                         <a href={linkGithub} target="_blank"><FontAwesomeIcon className="hover-icn" icon={faGithub} size="2x" /> </a>
                     </div>
                     <div className='btn-a'>
                         <a href={linkSitio} target="_blank"><span className="btn-sitio">Ver sitio</span></a>
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -39,36 +37,53 @@ export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
   )
 }
 
+const cards = [
+    {
+      imagen: ProyectoUno,
+      titulo:"Movimientos Artísticos",
+      skills:"HTML - CSS- JavaScript",
+      linkSitio:"https://movimientos.netlify.app/",
+      linkGithub:"https://github.com/jimenabelentorrilla/BAM-C48" 
+    },
+    {
+        imagen: ProyectoDos,
+        titulo: "sarasa",
+        skills:"sadasd",
+        linkSitio:"",
+        linkGithub:""
+    },
+    {
+        imagen: ProyectoTres,
+        titulo: "sarasa",
+        skills:"asdasd",
+        linkSitio:"",
+        linkGithub:""
+    }
+  ];
 
 const Proyectos = () => {
   return (
     <>
-        <Container id="proyectos" className='hg-pro'>
-            <Row>
-                <div>
-                    <h2 className='title-proy'>Proyectos</h2>
-                </div>
-            </Row>
-            <Row>
-                <Col className="row-proy">
-                    <Proyecto 
-                        imagen={ProyectoUno}
-                        titulo="Movimientos Artísticos"
-                        skills="HTML - CSS- JavaScript"
-                        linkSitio="https://movimientos.netlify.app/"
-                        linkGithub="https://github.com/jimenabelentorrilla/BAM-C48" />
-                    <Proyecto 
-                        imagen={ProyectoDos}
-                        titulo="Streaming Website"
-                        skills="React - CSS- Bootstrap"
-                        linkSitio="https://video-streaming-website.netlify.app/"
-                        linkGithub="https://github.com/jimenabelentorrilla/video-website" />
-                    <Proyecto 
-                        imagen={ProyectoTres}
-                        titulo="Gourmet Burger"
-                        skills="React - CSS - Bootstrap"
-                        linkSitio="https://gourmet-burger-kitchen.netlify.app/"
-                        linkGithub="https://github.com/jimenabelentorrilla/burger-react" />
+        <Container id="proyectos" className="hg-pro d-flex align-items-center gap-3 justify-content-center">
+            <Row className="d-flex flex-column gap-4">
+                <Col>
+                    <div>
+                        <h2 className='title-proy'>Proyectos</h2>
+                    </div>
+                </Col>
+                <Col className="row-proy d-flex justify-content-between align-items-center gap-4">
+                    {
+                        cards.map(card => {
+                            return (
+                                <Proyecto 
+                                    imagen={card.imagen}
+                                    titulo={card.titulo}
+                                    skills={card.skills}
+                                    linkSitio={card.linkSitio}
+                                    linkGithub={card.linkGithub} />
+                            )
+                        })
+                    }                    
                 </Col>
             </Row>
         </Container>
@@ -77,5 +92,3 @@ const Proyectos = () => {
 }
 
 export default Proyectos;
-
-
