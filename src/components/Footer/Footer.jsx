@@ -36,7 +36,7 @@ const Footer = () => {
     <>
         <Container id="contacto" fluid className="row-footer d-flex justify-content-center align-items-center" >
           <Row className="gap-ftr d-flex gap-5">
-                <Col>
+                <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
                     <div className='card-footer d-flex flex-column align-items-start'>
                         <div className="card-text d-flex flex-column gap-2">
                             <h2>Sigamos en contacto.</h2>
@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
                     <form ref={form} onSubmit={sendEmail} className="d-flex flex-column gap-4">
                         <div className="flex-input d-flex flex-column gap-3">
                             <div className="input-footer">

@@ -7,14 +7,15 @@ import Proyectos from './components/Projects/Proyectos';
 import Footer from './components/Footer/Footer';
 
 function App() {
+
   return (
-    <>
+    <div className="bg-grid">
       <Naav />
       <Header />
       <Skills />
       <Proyectos />
       <Footer />
-    </>
+    </div>
   )
 }
 

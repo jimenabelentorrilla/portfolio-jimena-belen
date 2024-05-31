@@ -13,3 +13,8 @@
 .row-footer {
   padding: 2em;
 }
+.bg-grid{
+  background-image: linear-gradient(#dfdfdf23  1px, transparent 1px), linear-gradient(to right, #dfdfdf27 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-color: #ffffff;
+}

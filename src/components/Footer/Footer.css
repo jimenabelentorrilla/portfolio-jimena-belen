@@ -1,6 +1,6 @@
 /**footer**/
   .row-footer{
-    min-height: 65em;
+    min-height: 50em;
     background-color: #fbc2eb;
     background-image: url(/src/assets/stars.svg);
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@
   }
   .gap-ftr{
     flex-direction: column;
+    justify-content: center;
     min-width: 80vw;
   }
   .card-footer{
@@ -148,6 +149,7 @@
   @media (min-width: 1200px) and (max-width: 1399.99px) {
     .gap-ftr {
       flex-direction: row;
+      gap: 0px !important; 
     }
     .card-text h2{
       font-size:1.5em;
