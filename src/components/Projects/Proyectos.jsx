@@ -8,7 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 /**assets**/
 import ProyectoUno from "../../assets/mov.jpg";
 import ProyectoDos from "../../assets/domo.png";
-import ProyectoTres from "../../assets/gourmet.jpg";
+import ProyectoTres from "../../assets/homy.jpg";
 
 
 export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
@@ -54,10 +54,10 @@ const cards = [
     },
     {
         imagen: ProyectoTres,
-        titulo: "Gourmet Burger Kitchen",
-        skills:"React.js - CSS - Bootstrap",
-        linkSitio:"https://gourmet-burger-kitchen.netlify.app/",
-        linkGithub:""
+        titulo: "Homy",
+        skills:"React.js - CSS - MUI",
+        linkSitio:"https://homy-app.netlify.app/",
+        linkGithub:"https://github.com/jimenabelentorrilla/homy"
     }
   ];
 
