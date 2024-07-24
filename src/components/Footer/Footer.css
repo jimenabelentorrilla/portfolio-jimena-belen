@@ -118,6 +118,10 @@
   }
 
   @media (min-width: 768px) and (max-width: 991.99px){
+    .gap-ftr {
+      flex-direction: row;
+      gap: 0px !important; 
+    }
     .card-text h2{
       font-size:1.5em;
     }
@@ -133,6 +137,10 @@
   }
 
   @media (min-width: 992px) and (max-width: 1199.99px) {
+    .gap-ftr {
+      flex-direction: row;
+      gap: 0px !important; 
+    }
     .card-text h2{
       font-size:1.6em;
     }
