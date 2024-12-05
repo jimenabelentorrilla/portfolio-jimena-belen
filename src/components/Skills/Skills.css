@@ -3,69 +3,19 @@
     min-height: 16.375rem;
     border-top: 2px solid rgba(0, 0, 0, 0.20);
     border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+    padding: clamp(2em, 2.5em + 1vw, 3em);
   }
   .icon-name{
     color: #2D2D2D;
     font-weight: 600;
     text-transform: uppercase;
     margin:0;
+    font-size: clamp(1.1rem, 1.125em + 1vw, 1.3rem);
   }
   .skill{
     transition: transform .2s;
+    font-size: clamp(2rem, 3.775em + 1vw, 5rem);
   }
   .skill:hover{
     transform: scale(1.2);
   }
-
- /**mq**/
-  @media (width < 575.99px){
-    .skill{
-      font-size: 2.275em;
-    }
-    .icon-name{
-      font-size: 0.8em;
-    }
-  }
-  
-  @media (min-width: 576px) and (max-width: 767.99px){
-    .skill{
-      font-size: 2.775em;
-    }
-    .icon-name{
-      font-size: 0.9em;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991.99px){
-    .skill{
-      font-size: 3em;
-    }
-    .icon-name{
-      font-size: 0.9em;
-    }
-  }
- 
-  @media (min-width: 992px) and (max-width: 1199.99px) { 
-    .skill{
-      font-size: 3.155em;
-    }
-    .icon-name{
-      font-size: 1em;
-    }
-  }
-  @media (min-width: 1200px) and (max-width: 1399.99px) {
-    .skill{
-      font-size: 3.555em;
-    }
-    .icon-name{
-      font-size: 1.025em;
-    }
-  }
-  @media (min-width: 1400px){
-    .skill{
-      font-size: 3.775em;
-    }
-    .icon-name{
-      font-size: 1.125em;
-    }
-  } 

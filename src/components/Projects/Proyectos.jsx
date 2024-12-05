@@ -7,8 +7,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**assets**/
 import ProyectoUno from "../../assets/mov.jpg";
-import ProyectoDos from "../../assets/domo.png";
-import ProyectoTres from "../../assets/homy.jpg";
+import ProyectoDos from "../../assets/mariano.jpg";
+import ProyectoTres from "../../assets/nails.png";
 
 
 export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
@@ -34,32 +34,32 @@ export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
             </div>
         </div>
     </>
-  )
+)
 }
 
 const cards = [
     {
-      imagen: ProyectoUno,
-      titulo:"Movimientos Artísticos",
-      skills:"HTML - CSS- JavaScript",
-      linkSitio:"https://movimientos.netlify.app/",
-      linkGithub:"https://github.com/jimenabelentorrilla/BAM-C48" 
+       imagen: ProyectoUno,
+       titulo:"Movimientos Artísticos",
+       skills:"HTML - CSS- JavaScript",
+       linkSitio:"https://movimientos.netlify.app/",
+       linkGithub:"https://github.com/jimenabelentorrilla/BAM-C48" 
     },
     {
         imagen: ProyectoDos,
-        titulo: "DOMO",
-        skills:"React.js - CSS - Bootstrap",
-        linkSitio:"https://challenge-torrilla.netlify.app/",
-        linkGithub:"https://github.com/jimenabelentorrilla/landing-challenge"
+        titulo: "Portfolio Dot Dager",
+        skills:"HTML - CSS",
+        linkSitio:"https://mariano-villa.netlify.app/",
+        linkGithub:"https://github.com/jimenabelentorrilla/mariano"
     },
     {
         imagen: ProyectoTres,
-        titulo: "Homy",
-        skills:"React.js - CSS - MUI",
-        linkSitio:"https://homy-app.netlify.app/",
-        linkGithub:"https://github.com/jimenabelentorrilla/homy"
+        titulo: "Beauty Nails",
+        skills:"HTML - CSS - JavaScript",
+        linkSitio:"https://beauty-nails-talento-tech.netlify.app/",
+        linkGithub:"https://github.com/jimenabelentorrilla/beauty-nails"
     }
-  ];
+];
 
 const Proyectos = () => {
   return (

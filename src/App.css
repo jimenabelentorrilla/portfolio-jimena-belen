@@ -7,9 +7,10 @@
   font-family: Epilogue;
   margin-inline:auto;
 }
-.row-nav, 
+body{
+  font-size: 16px !important;
+}
 .row-header,
-.row-skills,
 .row-footer {
   padding: 2em;
 }

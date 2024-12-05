@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
         <Container>
-            <Row className="row-header d-flex align-content-center justify-content-between animate__animated animate__fadeIn">
+            <Row className="row-header d-flex align-content-center justify-content-center animate__animated animate__fadeIn">
                 <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
                     <div className="text-hd d-flex flex-column align-items-start">
                         <span>Frontend Developer</span>

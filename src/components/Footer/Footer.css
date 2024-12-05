@@ -9,7 +9,6 @@
     background-size: cover;
   }
   .gap-ftr{
-    flex-direction: column;
     justify-content: center;
     min-width: 80vw;
   }
@@ -27,6 +26,7 @@
   .card-text h2{
     font-weight: 600;
     line-height: 42px;
+    font-size: clamp(1rem, 1.5rem + 1vw, 2rem);
   }
   .card-text p{
     font-weight: 400;
@@ -83,92 +83,32 @@
     max-width: 22.35rem;
     margin-inline:auto;
   }
+  .fs-icon{
+    font-size: 2em;
+  }
+  .input-footer input, .text-area, .card-text p{
+    font-size: clamp(1rem, 0.825rem + 1vw, 1rem); 
+  }
+  .btn-form{
+    font-size: clamp(1rem, 1.25rem + 1vw, 1.1rem);
+  }
+
 
   /**mq**/
-  @media (width < 575.99px){
-    .card-text h2{
-      font-size:1.3em;
-    }
-    .fs-icon{
-      font-size: 1.5em;
-    }
-    .input-footer input, .text-area, .card-text p{
-      font-size: 0.8em; 
-    }
-    .btn-form{
-      font-size: 0.8em;
-    }
-    .card-footer{
-      padding:1.5em;
-    }
+@media (max-width : 1200px){
+  .gap-ftr {
+    flex-direction: column;
+    gap: 4em;
+    align-items: center;
   }
-  @media (min-width: 576px) and (max-width: 767.99px){
-    .card-text h2{
-      font-size: 1.4em;
-    }
-    .fs-icon{
-      font-size: 1.6em;
-    }
-    .input-footer input, .text-area, .card-text p{
-      font-size: 0.8em; 
-    }
-    .btn-form{
-      font-size: 1em;
-    }
+  .row-footer{
+    padding: 5rem 2rem;
   }
+}
 
-  @media (min-width: 768px) and (max-width: 991.99px){
-    .gap-ftr {
-      flex-direction: row;
-      gap: 0px !important; 
-    }
-    .card-text h2{
-      font-size:1.5em;
-    }
-    .fs-icon{
-      font-size: 1.8em;
-    }
-    .input-footer input, .text-area, .card-text p{
-      font-size: 0.9em; 
-    }
-    .btn-form{
-      font-size: 1.25em;
-    }
-  }
 
-  @media (min-width: 992px) and (max-width: 1199.99px) {
+  @media (min-width: 1200px) {
     .gap-ftr {
       flex-direction: row;
-      gap: 0px !important; 
-    }
-    .card-text h2{
-      font-size:1.6em;
-    }
-    .fs-icon{
-      font-size: 2em;
-    }
-    .input-footer input, .text-area, .card-text p{
-      font-size: 1em; 
-    }
-    .btn-form{
-      font-size: 1.25em;
-    }
-   }
-  @media (min-width: 1200px) and (max-width: 1399.99px) {
-    .gap-ftr {
-      flex-direction: row;
-      gap: 0px !important; 
-    }
-    .card-text h2{
-      font-size:1.5em;
-    }
-    .fs-icon{
-      font-size: 2em;
-    }
-    .input-footer input, .text-area, .card-text p{
-      font-size: 1em; 
-    }
-    .btn-form{
-      font-size: 1.25em;
     }
   } 

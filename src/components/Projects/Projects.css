@@ -1,17 +1,18 @@
 /**Proyectos**/
   .hg-pro{
-    min-height: 80rem;
+    min-height: 100vh;
   }
   .title-proy{
     color:  #2D2D2D;
     text-align: center;
     font-weight: 600;
     line-height: 42px; 
+    font-size: clamp(1.5rem, 2rem + 1vw, 2.5rem);
   }
   
   /*-Proyecto-**/
   .cnt-imagen{
-    width: 21.875rem;
+    min-width: 20rem;
   }
   .img-proyecto-size{
     max-width: 100%;
@@ -30,12 +31,14 @@
     color: #2D2D2D;
     font-weight: 600;
     line-height: 30px;
+    font-size: clamp(1rem, 1rem + 1vw, 1.1rem);
   }
   .contenedor-titulo-skills p{
     color: #2D2D2D;
     font-weight: 500;
     line-height: 27px;
     opacity: 0.9;
+    font-size: clamp(1rem, 1rem + 1vw, 1.1rem);
   }
   .btn-sitio{
     border: #ff8cde solid 1px;
@@ -55,98 +58,17 @@
   }
 
   /***mq****/
-  @media (width < 575.99px){
-    .cnt-imagen{
-      width: 18.875rem;
-    }
+
+  @media (max-width: 1200px){
     .row-proy{
       flex-direction: column;
     }
-    .title-proy{
-      font-size: 1.8em;
-    }
-    .contenedor-titulo-skills h3{
-      font-size: 1em;
-    }
-    .contenedor-titulo-skills p{
-      font-size:0.9em;
-    }
-    .btn-sitio{
-      font-size:0.75em;
-    }
-    .hover-icn{
-      font-size:1.8em;
+    .hg-pro{
+      padding: 5rem 2rem;
     }
   }
-  @media (min-width: 576px) and (max-width: 767.99px){
-    .row-proy{
-      flex-direction: column;
-    }
-    .title-proy{
-      font-size: 1.8em;
-    }
-    .contenedor-titulo-skills h3{
-      font-size: 1em;
-    }
-    .contenedor-titulo-skills p{
-      font-size:0.9em;
-    }
-    .btn-sitio{
-      font-size:0.75em;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991.98px){
-    .row-proy{
-      flex-direction: column;
-    }
-    .title-proy{
-      font-size: 1.8em;
-    }
-    .contenedor-titulo-skills h3{
-      font-size: 1em;
-    }
-    .contenedor-titulo-skills p{
-      font-size:0.9em;
-    }
-    .btn-sitio{
-      font-size:0.75em;
-    }
-  }
- 
-  @media (min-width: 992px) and (max-width: 1199.98px) { 
-    .row-proy{
-      flex-direction: column;
-    }
-    .title-proy{
-      font-size:1.9em;
-    }
-    .contenedor-titulo-skills h3{
-      font-size: 1.18em;
-    }
-    .contenedor-titulo-skills p{
-      font-size:1em;
-    }
-    .btn-sitio{
-      font-size:0.8em;
-    }
-   }
-   @media (width > 1200px){
+  @media (min-width: 1200px){
     .row-proy{
       flex-direction: row;
     }
-    .hg-pro{
-      min-height: 43rem;
-    }
-    .title-proy{
-      font-size:2em;
-    }
-    .contenedor-titulo-skills h3{
-      font-size:1.25em;
-    }
-    .contenedor-titulo-skills p{
-      font-size:1.063em;
-    }
-    .btn-sitio{
-      font-size:0.875em;
-    }
-   }
+  }

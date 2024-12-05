@@ -14,28 +14,28 @@ import Modal from 'react-bootstrap/Modal';
 
 const Footer = () => {
 
-  const form = useRef();
+    const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_wvoajub', 'template_oiaxyzh', form.current, 'vyErkCvr_lW2IRIw7')
-      .then((result) => {
-          console.log(result.text);
-          form.current.reset();
-          setShow(true);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+        emailjs.sendForm('service_wvoajub', 'template_oiaxyzh', form.current, 'vyErkCvr_lW2IRIw7')
+        .then((result) => {
+            console.log(result.text);
+            form.current.reset();
+            setShow(true);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-  return (
+    return (
     <>
         <Container id="contacto" fluid className="row-footer d-flex justify-content-center align-items-center" >
-          <Row className="gap-ftr d-flex gap-5">
+            <Row className="gap-ftr d-flex">
                 <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
                     <div className='card-footer d-flex flex-column align-items-start'>
                         <div className="card-text d-flex flex-column gap-2">
@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+                <Col>
                     <form ref={form} onSubmit={sendEmail} className="d-flex flex-column gap-4">
                         <div className="flex-input d-flex flex-column gap-3">
                             <div className="input-footer">
@@ -71,7 +71,7 @@ const Footer = () => {
                         </div>
                     </form>
                 </Col>              
-          </Row>
+            </Row>
         </Container>
 
         <Modal centered size="md" show={show} onHide={handleClose}>
@@ -91,7 +91,6 @@ const Footer = () => {
             <Modal.Footer></Modal.Footer>
         </Modal>
     </>  
-  )
-}
+)}
 
 export default Footer;
