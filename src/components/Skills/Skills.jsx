@@ -2,41 +2,23 @@ import './Skills.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faCss3, faJs, faBootstrap, faSass, faGit } from '@fortawesome/free-brands-svg-icons';
 
-const icons = [
-  {
-      "id": "1",
-      "name": "React.js",
-      "icon": faReact
-  },
-  {
-      "id": "2",
-      "name": "CSS3",
-      "icon": faCss3 
-  },
-  {
-      "id": "3",
-      "name": "JavaScript",
-      "icon": faJs    
-  },
-  {
-      "id": "4",
-      "name": "Bootstrap",
-      "icon": faBootstrap
-  },
-  {
-      "id": "5",
-      "name": "Sass",
-      "icon": faSass
-  },
-  {
-      "id": "6",
-      "name": "Git",
-      "icon": faGit
-  }
-]
+import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { FaSquareGit } from "react-icons/fa6";
+import { FaReact } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
+
+  const icons = [
+    { icon: SiNextdotjs, label: 'Next.js' },
+    { icon: FaReact, label: 'React.js' },
+    { icon: SiTypescript, label: 'TypeScript' },
+    { icon: RiTailwindCssFill, label: 'Tailwind' },
+    { icon: FaSquareGit, label: 'Git' },
+    { icon: BiLogoPostgresql , label: 'Postgresql' },
+  ];
+
 
 const Skills = () => {
   return (
@@ -46,20 +28,11 @@ const Skills = () => {
               <Col>
                   <div className='d-flex justify-content-between flex-wrap gap-3 align-items-center'>
                     {
-                      icons.map(icon => {
+                      icons.map(({ icon: IconComponent, label }, index) => {
                         return (
-                          <div className="d-flex flex-column align-items-center gap-3">
-                            <div>
-                              <FontAwesomeIcon
-                                key={icon.id} 
-                                className='skill'
-                                style={{ color: '#2F2E41'}}
-                                icon={icon.icon}
-                              />
-                            </div>
-                            <div>
-                              <p className='icon-name'>{icon.name}</p>
-                            </div>
+                          <div className="d-flex flex-column align-items-center gap-3" key={index}>
+                            <IconComponent size={60} color="#2F2E41" className='skill' />
+                            <p className='icon-name'>{label}</p>
                           </div>
                       )})
                     }

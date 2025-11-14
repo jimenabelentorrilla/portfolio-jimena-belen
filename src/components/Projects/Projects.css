@@ -1,6 +1,6 @@
 /**Proyectos**/
   .hg-pro{
-    min-height: 100vh;
+    min-height: 110vh;
   }
   .title-proy{
     color:  #2D2D2D;
@@ -30,7 +30,7 @@
   .contenedor-titulo-skills h3{
     color: #2D2D2D;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 20px;
     font-size: clamp(1rem, 1rem + 1vw, 1.1rem);
   }
   .contenedor-titulo-skills p{
@@ -38,7 +38,7 @@
     font-weight: 500;
     line-height: 27px;
     opacity: 0.9;
-    font-size: clamp(1rem, 1rem + 1vw, 1.1rem);
+    font-size: 0.9rem;
   }
   .btn-sitio{
     border: #ff8cde solid 1px;

@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**assets**/
-import ProyectoUno from "../../assets/mov.jpg";
-import ProyectoDos from "../../assets/mariano.jpg";
-import ProyectoTres from "../../assets/nails.png";
+import ProyectoUno from "../../assets/mockup_mov.png";
+import ProyectoDos from "../../assets/mockup_triptap.png";
+import ProyectoTres from "../../assets/mockup_nails.png";
 
 
 export const Proyecto = ({ imagen, titulo, skills, linkSitio, linkGithub }) => {
@@ -47,10 +47,10 @@ const cards = [
     },
     {
         imagen: ProyectoDos,
-        titulo: "Portfolio Dot Dager",
-        skills:"HTML - CSS",
-        linkSitio:"https://mariano-villa.netlify.app/",
-        linkGithub:"https://github.com/jimenabelentorrilla/mariano"
+        titulo: "TripTap",
+        skills:"Next.js - TypeScript - Tailwind",
+        linkSitio:"https://trip-tap.netlify.app/",
+        linkGithub:"https://github.com/ezequielmanchula/triptap-frontend"
     },
     {
         imagen: ProyectoTres,
