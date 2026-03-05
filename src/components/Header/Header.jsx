@@ -13,7 +13,7 @@ const Header = () => {
                     <div className="text-hd d-flex flex-column align-items-start">
                         <span>Frontend Developer</span>
                         <h1>Jimena Belén Torrilla</h1>
-                        <a href="https://drive.google.com/file/d/1FXXmVTkjsUBGhd-Qndc_eosTwESvAYOt/view?usp=sharing" target='blank' class="btn-des">DESCARGAR CV</a>
+                        <a href="https://drive.google.com/file/d/1nFqU-i6YYpqcefMqH0brDShPTgORuzwd/view?usp=sharing" target='blank' class="btn-des">DESCARGAR CV</a>
                     </div>
                 </Col>
                 <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6}>
